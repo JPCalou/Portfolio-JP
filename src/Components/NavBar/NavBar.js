@@ -1,4 +1,5 @@
 import './NavBar.css'
+import CV from '../Media/CV-JP.pdf'
 export function NavBar (){
     return (
         <nav>
@@ -13,7 +14,7 @@ export function NavBar (){
                 <li><a href='#proyectos'>Proyectos</a></li>
                 <li><a href='#habilidades'>Habilidades</a></li>
                 <li><a href='#contacto'>Contacto</a></li>
-                <li>CV</li>
+                <li><a href={CV} download={CV}>CV</a></li>
      
 
 
