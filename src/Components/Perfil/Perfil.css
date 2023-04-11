@@ -1,0 +1,24 @@
+.Perfil{
+    font-family: 'Montserrat', sans-serif;
+    color: #F2A35E;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.Parrafo{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    text-align: initial;
+}
+p{
+    width: 70%;
+}
