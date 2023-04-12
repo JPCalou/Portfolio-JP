@@ -5,7 +5,7 @@
 
 .Proyectos h2{
     font-family: 'Montserrat', sans-serif;
-    color: #F27E7E;
+    color: #f2a35e;
     display: flex;
     justify-content: flex-start;
    
@@ -42,7 +42,7 @@
     text-align: center;
     cursor: pointer;
     color:#01403a ;
-    background-color: #F27E7E;
+    background-color: #f2a35e;
     transition-duration: 0.5s;
 }
 
@@ -86,7 +86,7 @@
             align-items: center;
             text-align: center;
             cursor: pointer;
-            color: #F27E7E;
+            color: #f2a35e;
             background-color: #01403a;
             transition-duration: 1s;
     }
@@ -96,7 +96,7 @@
     
     .Proy:hover{
         height: 20rem;
-        background-color: #F27E7E;
+        background-color: #f2a35e;
         color:#01403a ;
     }
     
