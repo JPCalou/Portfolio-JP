@@ -5,6 +5,35 @@ import Paw from "../Media/Psy-at-work.jpg"
 
 
 export function Proyectos() {
+  const work = [
+    {
+      id:"Paw",
+      title: "Psy at Work",
+      description: "Pagina de empresa que presta servicios de psicologia empresarial",
+      technologies: "HTML,CSS,Bootstrap,SASS",
+      image : Paw,
+      link : 'https://jpcalou.github.io/psyatwork/'
+    },
+    {
+      id:"Currency",
+      title: "Currency App",
+      description: "Conversor de divisas",
+      technologies: "HTML,CSS,Javascript",
+      image : Currency,
+      link : 'https://jpcalou.github.io/Currency-app/'
+    },
+    {
+      id: "Crescent",
+      title: "Crescent Mall",
+      description: "E-Commerce de articulos aromaticos",
+      technologies: "React JS, Firebase,React-bootstrap,Sweet-Alert",
+      image : Crescent,
+      link : 'https://crescent-plum.vercel.app/'
+    }
+
+  ]
+
+
     return (
       <div className="Proyectos" >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -17,8 +46,17 @@ export function Proyectos() {
         </svg>
         <h2 id='proyectos'>Proyectos</h2>
         <div className="cartas">
-
-          <div className='Proy' id='Paw'>
+              {
+                work.map(({title,description,technologies,image,id,link})=>(
+                  <a href={link}><div className='Proy' id={id} >
+            <img src={image} alt={id}></img>
+            <h5>{title}</h5>
+            <p><span>{description}</span></p>
+            <p>{technologies}</p>
+          </div></a>
+                ))
+              }
+          {/* <div className='Proy' id='Paw'>
             <img src={Paw} alt='Paw'></img>
             <h5>Psy at Work</h5>
             <p><span>Descripcion del sitio</span></p>
@@ -37,7 +75,7 @@ export function Proyectos() {
             <h5>Crescent Mall</h5>
             <p><span>Descripcion del sitio</span></p>
             <p>ReactJS, Bootstrap</p>
-          </div>
+          </div> */}
         </div>
       </div>
     );

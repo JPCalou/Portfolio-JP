@@ -1,6 +1,8 @@
 import './Habilidades.css'
 
 export function Habilidades (){
+
+
     return(
         <div >
             <div className='separador-h' id='separador' ></div>

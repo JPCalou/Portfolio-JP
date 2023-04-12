@@ -1,10 +1,7 @@
 import "./Contacto.css";
 
 export function Contacto() {
-  // const whatsapp = document.getElementById("whatsapp");
-  // const WpURL = 'https://api.whatsapp.com/message/XPUNSJFDCX2CL1?autoload=1&app_absent=0' 
-  //EVENTS//
-  //  whatsapp.addEventListener('click',WpURL)
+
 
 
 
@@ -21,11 +18,11 @@ export function Contacto() {
       </svg>
       <h2 id="contacto">Contacto</h2>
       <div className="Enlaces">
-       <i className="fa-brands fa-square-whatsapp" id="whatsapp"></i>
-        <i className="fa-brands fa-telegram" id="telegram"></i>
-        <i className="fa-solid fa-envelope" id="mail"></i>
-        <i className="fa-brands fa-linkedin" id="linkedin"></i>
-        <i className="fa-brands fa-github" id="github"></i> 
+      <a href="https://wa.me/message/XPUNSJFDCX2CL1"><i className="fa-brands fa-square-whatsapp" id="whatsapp"></i></a>
+        <a href="https://t.me/Juan_Pedro_Calou"><i className="fa-brands fa-telegram" id="telegram"></i></a>
+        {/* <a href=""><i className="fa-solid fa-envelope" id="mail"></i></a> */}
+        <a href="https://www.linkedin.com/in/juan-pedro-calou/"><i className="fa-brands fa-linkedin" id="linkedin"></i></a>
+        <a href="https://github.com/JPCalou"><i className="fa-brands fa-github" id="github"></i></a> 
       </div>
     </div>
   );

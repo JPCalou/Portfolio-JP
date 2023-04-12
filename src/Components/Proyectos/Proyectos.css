@@ -12,6 +12,7 @@
     
 }
 
+
 .cartas{
     padding: 3rem;
         display: flex;
@@ -19,6 +20,9 @@
         justify-content: space-around;
         align-items: center;
         gap: 2rem;
+}
+ a{
+    text-decoration: none;
 }
 .cartas div img{
     width: 90%;
@@ -91,7 +95,7 @@
     }
     
     .Proy:hover{
-        height: 16rem;
+        height: 20rem;
         background-color: #F27E7E;
         color:#01403a ;
     }

@@ -1,6 +1,9 @@
 .Contacto{
     background-color: #0455bf;
 }
+a {
+    color: black;
+}
 
 .Contacto h2{
     font-family: 'Montserrat', sans-serif;
