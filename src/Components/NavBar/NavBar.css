@@ -109,10 +109,11 @@ nav label i:hover {
         margin: 5px;
         padding: 3px;
         background-color: transparent;
+        opacity: 1;
     }
 
-    nav ul {
-        opacity: 1;
+    nav ul li {
+       box-shadow: 0px 1px 5px #01403A;
 
     }
 }

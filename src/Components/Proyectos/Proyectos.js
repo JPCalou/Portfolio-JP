@@ -9,7 +9,7 @@ export function Proyectos() {
     {
       id:"Paw",
       title: "Psy at Work",
-      description: "Pagina de empresa que presta servicios de psicologia empresarial",
+      description: "Sitio web de psicología empresarial",
       technologies: "HTML,CSS,Bootstrap,SASS",
       image : Paw,
       link : 'https://jpcalou.github.io/psyatwork/'
@@ -25,7 +25,7 @@ export function Proyectos() {
     {
       id: "Crescent",
       title: "Crescent Mall",
-      description: "E-Commerce de articulos aromaticos",
+      description: "E-Commerce de productos aromáticos",
       technologies: "React JS, Firebase,React-bootstrap,Sweet-Alert",
       image : Crescent,
       link : 'https://crescent-plum.vercel.app/'

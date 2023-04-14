@@ -6,9 +6,10 @@ export function Inicio() {
   return (
     <div className="Inicio" id="inicio">
       <div className="imagen-titulo">
-        <div className="Imagen">
-          <img className="img-inicio" src={foto} alt="foto inicio"></img>
-        </div>
+        {/* <div className="Imagen">
+          
+        </div> */}
+        <img className="img-inicio" src={foto} alt="foto inicio"></img>
 
         <div className="Titulos">
           <img src={logo} alt="logo" id="Logo"></img>

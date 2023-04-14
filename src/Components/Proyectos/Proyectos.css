@@ -7,7 +7,7 @@
     font-family: 'Montserrat', sans-serif;
     color: #f2a35e;
     display: flex;
-    justify-content: flex-start;
+    
    
     
 }
@@ -36,8 +36,6 @@
     padding: 1rem;
     border-radius: 2rem;
     width: 15rem;
-    height: 18rem;
-    
     align-items: center;
     text-align: center;
     cursor: pointer;
@@ -95,7 +93,7 @@
     }
     
     .Proy:hover{
-        height: 20rem;
+        height:20rem;
         background-color: #f2a35e;
         color:#01403a ;
     }

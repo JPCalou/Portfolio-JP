@@ -2,18 +2,19 @@ import "./Perfil.css";
 
 export function Perfil() {
   return (
-    <div className="Perfil" >
+    <div className="Perfil">
       <h2 id="perfil">Perfil</h2>
       <div className="Parrafo">
         <p>
-          Soy una persona comprometida y en constante aprendizaje, siempre
-          dispuesta a aprender nuevas tecnologías y metodologías de trabajo.
-          Creo que mi pasión por la programación y mi dedicación al trabajo me
-          hacen un candidato ideal para desempeñarme como programador front-end
-          en cualquier proyecto. Mi objetivo es continuar aprendiendo y
-          creciendo profesionalmente, buscando siempre nuevos desafíos que me
-          permitan seguir desarrollando mis habilidades y potencial como
-          programador.
+          Soy una persona proactiva, con una gran capacidad de adaptación al
+          cambio y de salir de mi zona de confort.Tengo experiencia en
+          diversos roles y responsabilidades, lo que me ha permitido desarrollar
+          habilidades para trabajar en equipo. Mi objetivo es continuar
+          aprendiendo y creciendo profesionalmente, buscando siempre nuevos
+          desafíos que me permitan seguir desarrollando mis habilidades y
+          potencial como programador. En resumen, soy un profesional adaptable y
+          versátil, capaz de enfrentar retos y desafíos, trabajar bajo presión y
+          colaborar con mis colegas con dedicación y compromiso.
         </p>
       </div>
     </div>
