@@ -7,12 +7,11 @@ export function Perfil() {
       <div className="Parrafo">
         <p>
           Soy una persona proactiva, con una gran capacidad de adaptación al
-          cambio y de salir de mi zona de confort.Tengo experiencia en
+          cambio y de salir de mi zona de confort. Tengo experiencia en
           diversos roles y responsabilidades, lo que me ha permitido desarrollar
           habilidades para trabajar en equipo. Mi objetivo es continuar
-          aprendiendo y creciendo profesionalmente, buscando siempre nuevos
-          desafíos que me permitan seguir desarrollando mis habilidades y
-          potencial como programador. En resumen, soy un profesional adaptable y
+          aprendiendo y creciendo profesionalmente, buscando nuevos
+          desafíos que me permitan seguir desarrollandome como programador. En resumen, soy un profesional adaptable y
           versátil, capaz de enfrentar retos y desafíos, trabajar bajo presión y
           colaborar con mis colegas con dedicación y compromiso.
         </p>
