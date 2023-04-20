@@ -12,16 +12,16 @@ export function Contacto() {
       </svg>
       <h2 id="contacto">Contacto</h2>
       <div className="Enlaces">
-        <a href="https://wa.me/message/XPUNSJFDCX2CL1">
+        <a href="https://wa.me/message/XPUNSJFDCX2CL1" aria-label="whatsapp">
           <i className="fa-brands fa-square-whatsapp" id="whatsapp"></i>
         </a>
-        <a href="https://t.me/Juan_Pedro_Calou">
+        <a href="https://t.me/Juan_Pedro_Calou" aria-label="telegram">
           <i className="fa-brands fa-telegram" id="telegram"></i>
         </a>
-        <a href="https://www.linkedin.com/in/juan-pedro-calou/">
+        <a href="https://www.linkedin.com/in/juan-pedro-calou/" aria-label="linkedin">
           <i className="fa-brands fa-linkedin" id="linkedin"></i>
         </a>
-        <a href="https://github.com/JPCalou">
+        <a href="https://github.com/JPCalou" aria-label="github">
           <i className="fa-brands fa-github" id="github"></i>
         </a>
       </div>
