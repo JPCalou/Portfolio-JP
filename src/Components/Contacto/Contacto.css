@@ -1,114 +1,110 @@
-.Contacto{
-    background-color: #0455bf;
+.Contacto {
+  background-color: #0455bf;
 }
 a {
-    color: black;
+  color: black;
 }
 
-.Contacto h2{
-    font-family: 'Montserrat', sans-serif;
-    color: #f2a35e;
-    display: flex;
-   
-    
-    
+.Contacto h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #f2a35e;
+  display: flex;
 }
-.Enlaces{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 5rem;
-    padding: 30px;
+.Enlaces {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+  padding: 30px;
 }
 .Enlaces a {
-   
-    text-decoration-style: none;
+  text-decoration-style: none;
 }
-.Enlaces i{
+.Enlaces i {
   font-size: 5rem;
   margin-bottom: 4rem;
 }
 
-.Enlaces #github{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    border-radius: 42px;
-    width: 76px;
-    height: 76px;
-    transition: all 60ms;
-    cursor: pointer;
+.Enlaces #github {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 42px;
+  width: 76px;
+  height: 76px;
+  transition: all 60ms;
+  cursor: pointer;
 }
 
-#linkedin{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    border-radius: 20px;
-    width: 60px;
-    height: 64px;
-    /* padding-top: 2px; */
-    transition: all 60ms;
-    cursor: pointer;
+#linkedin {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 60px;
+  height: 64px;
+  /* padding-top: 2px; */
+  transition: all 60ms;
+  cursor: pointer;
 }
-#linkedin:hover{
-    transform: scale(1.2) translate(0px,-10px);
-    background-color: #0077b5;
-    color: white;
-}
-
-#whatsapp{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    border-radius: 30px;
-    width: 64px;
-    height: 65px;
-    /* margin-left: 5px; */
-    transition: all 60ms;
-    cursor: pointer;
-}
-#whatsapp:hover{
-    transform: scale(1.2) translate(0px,-10px);
-    background-color: white;
-    color: #25D366;
+#linkedin:hover {
+  transform: scale(1.2) translate(0px, -10px);
+  background-color: #0077b5;
+  color: white;
 }
 
-#mail{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 80px;
-    height: 56px;
-    transition: all 60ms;
-    cursor: pointer;
+#whatsapp {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 64px;
+  height: 65px;
+
+  transition: all 60ms;
+  cursor: pointer;
 }
-#mail:hover{
-    transform: scale(1.2) translate(0px,-10px);
-    background-color: rgb(238, 40, 40);
-    color: white;
+#whatsapp:hover {
+  transform: scale(1.2) translate(0px, -10px);
+  background-color: white;
+  color: #25d366;
 }
 
-#telegram{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 60px;
-    height: 56px;
-    transition: all 60ms;
-    cursor: pointer;
+#mail {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 80px;
+  height: 56px;
+  transition: all 60ms;
+  cursor: pointer;
 }
-#telegram:hover{
-    transform: scale(1.2) translate(0px,-10px);
-    color: #229ED9;
-    background-color: white;
+#mail:hover {
+  transform: scale(1.2) translate(0px, -10px);
+  background-color: rgb(238, 40, 40);
+  color: white;
+}
+
+#telegram {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 60px;
+  height: 56px;
+  transition: all 60ms;
+  cursor: pointer;
+}
+#telegram:hover {
+  transform: scale(1.2) translate(0px, -10px);
+  color: #229ed9;
+  background-color: white;
 }

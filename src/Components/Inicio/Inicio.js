@@ -1,5 +1,5 @@
 import "./Inicio.css";
-import foto from "../Media/Foto.jpeg";
+import foto from "../Media/Foto.avif";
 import logo from '../Media/Logo-correcto.png'
 
 export function Inicio() {

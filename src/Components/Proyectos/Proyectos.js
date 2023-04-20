@@ -1,7 +1,7 @@
 import './Proyectos.css';
-import Crescent from "../Media/Crescent.jpg";
-import Currency from"../Media/Currency-app.jpg";
-import Paw from "../Media/Psy-at-work.jpg"
+import Crescent from "../Media/Crescent.avif";
+import Currency from"../Media/Currency-app.avif";
+import Paw from "../Media/Psy-at-work.avif"
 
 
 export function Proyectos() {
