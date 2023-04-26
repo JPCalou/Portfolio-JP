@@ -3,4 +3,21 @@
     margin: 20px;
     align-self: center;
 }
+.trad_box{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+}
+.trad{
+    cursor: pointer;
+}
+.trad img{
+    width: 2rem;
+   margin: 5px;
+   border-radius: 15px;
+   box-shadow: 0px 0px 10px #f2a35e;
+}
+
 

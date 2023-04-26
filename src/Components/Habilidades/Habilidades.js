@@ -1,10 +1,12 @@
 import "./Habilidades.css";
+import { useTranslation } from "react-i18next";
 
 export function Habilidades() {
+  const [t] = useTranslation("global")
   return (
     <div>
       <div className="separador-h" id="separador"></div>
-      <h2 id="habilidades">Habilidades</h2>
+      <h2 id="habilidades">{t("Habilidades.Titulo")}</h2>
       <div className="habilidades">
 
         <div >

@@ -1,0 +1,27 @@
+{
+    "Inicio" :{
+            "Titulo": "Front-End Developer"
+    },
+    "Perfil" :{
+        "Titulo": "Profile",
+        "parrafo": "I am a proactive person, with a great ability to adapt to change and to step out of my comfort zone. I have experience in different roles and responsibilities, which has allowed me to develop skills to work in a team. My goal is to continue learning and growing professionally, looking for new challenges that allow me to continue developing as a programmer. To summarize, I am an adaptable and versatile professional, able to face challenges, work under pressure and collaborate with my colleagues with dedication and commitment."
+},
+    "Proyectos" :{
+        "Titulo": "My Work"
+        
+    },
+    "Habilidades" :{
+        "Titulo": "Skills"
+        
+    },
+    "Contacto" :{
+        "Titulo": "Contact"
+        
+    },
+    "Nav" :{
+        "Perfil": "Profile",
+        "Proyectos": "My Work",
+        "Habilidades": "Skills",
+        "Contacto": "Contact"
+    }
+}

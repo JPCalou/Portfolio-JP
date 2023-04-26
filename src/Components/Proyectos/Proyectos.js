@@ -1,10 +1,12 @@
 import './Proyectos.css';
 import Crescent from "../Media/Crescent.avif";
 import Currency from"../Media/Currency-app.avif";
-import Paw from "../Media/Psy-at-work.avif"
+import Paw from "../Media/Psy-at-work.avif";
+import { useTranslation } from "react-i18next";
 
 
 export function Proyectos() {
+  const [t] = useTranslation("global")
   const work = [
     {
       id:"Paw",
@@ -44,7 +46,7 @@ export function Proyectos() {
             d="M0,192L34.3,176C68.6,160,137,128,206,133.3C274.3,139,343,181,411,218.7C480,256,549,288,617,282.7C685.7,277,754,235,823,213.3C891.4,192,960,192,1029,186.7C1097.1,181,1166,171,1234,160C1302.9,149,1371,139,1406,133.3L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
           ></path>
         </svg>
-        <h2 id='proyectos'>Proyectos</h2>
+        <h2 id='proyectos'>{t("Proyectos.Titulo")}</h2>
         <div className="cartas">
               {
                 work.map(({title,description,technologies,image,id,link})=>(
